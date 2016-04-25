@@ -25,7 +25,7 @@ router.route('/')
 		if(err) {
 			return res.status(400).send(err);
 		}
-		res.send(todo);
+		res.send();
 		});
 	});
 
